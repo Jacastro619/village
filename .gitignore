@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Vite
+/dist
+/vite.config.js
+
+# Build directories
+/build
+/coverage
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# .env files (sensitive information)
+.env
+.env.local
+.env.*.local
+
+# dotenv config file (if you're using it for storing sensitive info)
+*.env.*
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# NPM and Yarn lock files if you want to ignore them
+# package-lock.json (to ignore if using Yarn)
+# yarn.lock (to ignore if using npm)
+# **/package-lock.json
+# **/yarn.lock
+
+# SASS/SCSS Cache
+.sass-cache/
+
+# Coverage directory created by testing libraries (e.g., Jest)
+/coverage/
+
+# MySQL
+*.sql
+*.sqlite
+
+# Ignore generated files like reports, test files, etc.
+*.tar
+*.gz
+*.zip
+*.bak
+
+# System files that are not part of your project
+*.swp
+
+# Log files from different tools
+*.log
+
